@@ -11,9 +11,11 @@ function Subscribe() {
           Subscribe to Newsletter
         </label>
         <label className="block mb-2 text-sm text-gray-900 dark:text-white pb-2">
-          Do you want to get notified when a new post is added to Codr? Sign up
-          for our newsletter and you'll be among the first to find out about new
-          posts.
+          <p>
+            Do you want to get notified when a new post is added to Codr? Sign
+            up for our newsletter and you'll be among the first to find out
+            about new posts.
+          </p>
         </label>
         <input
           type="email"
@@ -36,7 +38,7 @@ function Subscribe() {
           htmlFor="remember"
           className="ml-2 text-sm text-gray-900 dark:text-gray-300"
         >
-          By subscribing, you agree with Codr's Terms of Service.
+          <p>By subscribing, you agree with Codr's Terms of Service.</p>
         </label>
       </div>
       <button
