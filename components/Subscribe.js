@@ -28,7 +28,6 @@ function Subscribe() {
           <input
             id="remember"
             type="checkbox"
-            value=""
             className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-violet-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-violet-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800"
             required
           />
@@ -37,12 +36,12 @@ function Subscribe() {
           htmlFor="remember"
           className="ml-2 text-sm text-gray-900 dark:text-gray-300"
         >
-          By subscribing, you agree with Codr’s Terms of Service.
+          By subscribing, you agree with Codr's Terms of Service.
         </label>
       </div>
       <button
         type="submit"
-        className="text-white float-right bg-violet-700 hover:bg-violet-800 focus:ring-4 focus:outline-none focus:ring-violet-300 font-medium rounded-lg text-sm w-full px-5 py-2.5 text-center dark:bg-violet-600 dark:hover:bg-violet-700 dark:focus:ring-violet-800 "
+        className="text-white float-right bg-violet-700 hover:bg-violet-800 focus:ring-4 focus:outline-none focus:ring-violet-300 font-medium rounded-lg text-sm w-full px-5 py-2.5 text-center dark:bg-violet-600 dark:hover:bg-violet-700 dark:focus:ring-violet-800"
       >
         Submit
       </button>
