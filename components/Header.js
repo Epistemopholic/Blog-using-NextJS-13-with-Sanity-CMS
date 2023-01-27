@@ -6,7 +6,9 @@ import { client } from "../lib/sanity";
 import { groq } from "next-sanity";
 
 async function Header() {
-  const page = await client.fetch(groq`*[_type == "page" ]`);
+  const page = await client.fetch(groq`*[_type == "page" ]`, {
+    next: { revalidate: 60 },
+  });
   const category = await client.fetch(groq`*[_type == 'category']{
     title,
    'id':*[defined(categories) && _type == 'post' && references(^._id)][0]{

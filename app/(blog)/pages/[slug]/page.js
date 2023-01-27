@@ -4,7 +4,11 @@ import { client } from "../../../../lib/sanity";
 import { groq } from "next-sanity";
 async function page({ params: { slug } }) {
   const query = groq`*[_type == "page" && slug.current == $slug][0]`;
-  const page = await client.fetch(query, { slug });
+  const page = await client.fetch(
+    query,
+    { slug },
+    { next: { revalidate: 60 } }
+  );
   return <PageContent page={page} />;
 }
 

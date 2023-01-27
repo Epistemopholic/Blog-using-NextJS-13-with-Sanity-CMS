@@ -9,7 +9,11 @@ async function page({ params: { slug } }) {
       author->{name},
       categories[]->{title},
     }`;
-  const post = await client.fetch(query, { slug });
+  const post = await client.fetch(
+    query,
+    { slug },
+    { next: { revalidate: 60 } }
+  );
   return <Article post={post} />;
 }
 
