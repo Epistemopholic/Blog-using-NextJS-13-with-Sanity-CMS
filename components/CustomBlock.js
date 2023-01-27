@@ -6,7 +6,12 @@ export const CustomBlock = {
   types: {
     image: ({ value }) => (
       <div className="relative w-full h-96 m-10 mx-auto">
-        <Image className="object-contain" fill src={urlFor(value).url()} />
+        <Image
+          className="object-contain"
+          fill
+          src={urlFor(value).url()}
+          alt="Codr"
+        />
       </div>
     ),
   },
