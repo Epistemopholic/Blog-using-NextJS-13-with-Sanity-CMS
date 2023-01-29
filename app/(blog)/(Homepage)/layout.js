@@ -3,8 +3,9 @@ import Header from "../../../components/Header";
 import Sidebar from "../../../components/Sidebar";
 import Footer from "../../../components/Footer";
 import Pagination from "../../../components/Pagination";
+import "./../../../styles/globals.css";
 
-export default function RootLayout({ children }) {
+export default function Layout({ children }) {
   return (
     <html lang="en">
       <head>

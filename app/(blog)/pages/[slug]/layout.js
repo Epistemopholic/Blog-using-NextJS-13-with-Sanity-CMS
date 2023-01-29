@@ -4,6 +4,8 @@ import Sidebar from "../../../../components/Sidebar";
 import Footer from "../../../../components/Footer";
 import { client } from "../../../../lib/sanity";
 import { groq } from "next-sanity";
+import "./../../../styles/globals.css";
+
 async function layout({ children, params: { slug } }) {
   const query = groq`*[_type == "page" && slug.current == $slug][0]`;
   const page = await client.fetch(
