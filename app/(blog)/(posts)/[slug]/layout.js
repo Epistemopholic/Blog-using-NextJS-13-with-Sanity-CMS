@@ -7,7 +7,7 @@ import Breadcrumbs from "../../../../components/Breadcrumbs";
 import { client } from "../../../../lib/sanity";
 import { groq } from "next-sanity";
 
-export default async function Layout({ children, params: { slug } }) {
+export default async function layout({ children, params: { slug } }) {
   const query = groq`*[_type == "post" && slug.current == $slug][0]{
       ...,
       author->{name},

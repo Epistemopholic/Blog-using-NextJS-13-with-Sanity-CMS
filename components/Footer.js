@@ -6,7 +6,7 @@ function Footer() {
       <span className="block text-sm font-bold text-gray-800 text-center dark:text-gray-400">
         © 2023{" "}
         <Link href="/" className="hover:underline hover:decoration-violet-800">
-          Codr.Live
+          TechBlog
         </Link>{" "}
         - All Rights Reserved.
       </span>

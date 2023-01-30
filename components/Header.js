@@ -16,7 +16,6 @@ async function Header() {
   }
   }[defined(id)]`);
 
-  console.log(category);
   return (
     <nav className="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 sticky w-full z-20 top-0 left-0 border-b border-gray-100 dark:border-gray-600 shadow-md">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
@@ -25,7 +24,7 @@ async function Header() {
             <Image
               src={Logo}
               className="mr-3"
-              alt="Codr.Live"
+              alt="TechBlog"
               width={40}
               heigh={40}
             />

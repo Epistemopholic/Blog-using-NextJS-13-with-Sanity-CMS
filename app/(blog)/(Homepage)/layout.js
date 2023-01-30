@@ -3,13 +3,12 @@ import Header from "../../../components/Header";
 import Sidebar from "../../../components/Sidebar";
 import Footer from "../../../components/Footer";
 import Pagination from "../../../components/Pagination";
-import "./../../../styles/globals.css";
 
-export default function Layout({ children }) {
+export default function layout({ children }) {
   return (
     <html lang="en">
       <head>
-        <title>CODR</title>
+        <title>TechBlog</title>
       </head>
       <body>
         <Header />
