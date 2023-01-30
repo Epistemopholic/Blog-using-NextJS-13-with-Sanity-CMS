@@ -29,7 +29,7 @@ async function Header() {
               heigh={40}
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white font-mono text-gray-900">
-              Codr.Live
+              TechBlog
             </span>
           </Link>
         </div>

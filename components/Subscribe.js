@@ -12,16 +12,16 @@ function Subscribe() {
         </label>
         <label className="block mb-2 text-sm text-gray-900 dark:text-white pb-2">
           <p>
-            Do you want to get notified when a new post is added to Codr? Sign
-            up for our newsletter and you&#39;ll be among the first to find out
-            about new posts.
+            Do you want to get notified when a new post is added to TechBlog?
+            Sign up for our newsletter and you&#39;ll be among the first to find
+            out about new posts.
           </p>
         </label>
         <input
           type="email"
           id="email"
           className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-violet-500 focus:border-violet-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-violet-500 dark:focus:border-violet-500"
-          placeholder="name@codr.live"
+          placeholder="name@email.com"
           required
         />
       </div>
@@ -38,7 +38,7 @@ function Subscribe() {
           htmlFor="remember"
           className="ml-2 text-sm text-gray-900 dark:text-gray-300"
         >
-          <p>By subscribing, you agree with Codr&#39;s Terms of Service.</p>
+          <p>By subscribing, you agree with TechBlog&#39;s Terms of Service.</p>
         </label>
       </div>
       <button
