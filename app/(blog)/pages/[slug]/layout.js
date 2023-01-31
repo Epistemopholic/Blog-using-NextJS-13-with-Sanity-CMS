@@ -20,6 +20,7 @@ async function layout({ children, params: { slug } }) {
         <title>{page.title}</title>
       </head>
       <body>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
         <Header />
         <div className="grid md:grid-cols-12 gap-5 m-2 p-4 md:px-10">
           <div className="md:col-span-9">{children}</div>
