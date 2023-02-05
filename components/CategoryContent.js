@@ -18,7 +18,7 @@ function CategoryContent({ data }) {
               />
               <div className="absolute w-full h-full bg-gradient-to-t from-gray-800"></div>
               <div className="relative z-10 text-base p-3">
-                <h2 className="text-white font-semibold text-xl my-24 ">
+                <h2 className="text-white font-semibold text-xl my-24 text-center">
                   {post.title}
                 </h2>
                 <div className="flex justify-between">
