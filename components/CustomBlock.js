@@ -17,7 +17,7 @@ export const CustomBlock = {
   },
   list: {
     bullet: ({ children }) => (
-      <ul className="mt-10 py-5 list-disc space-y-2">{children}</ul>
+      <ul className="mt-5 p-5 list-disc space-y-2">{children}</ul>
     ),
     number: ({ children }) => (
       <ol className="mt-lg list-decimal">{children}</ol>

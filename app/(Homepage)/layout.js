@@ -1,15 +1,12 @@
-import "./../../../styles/globals.css";
-import Header from "../../../components/Header";
-import Sidebar from "../../../components/Sidebar";
-import Footer from "../../../components/Footer";
-import Pagination from "../../../components/Pagination";
+import "./../../styles/globals.css";
+import Header from "../../components/Header";
+import Sidebar from "../../components/Sidebar";
+import Footer from "../../components/Footer";
 
-export default function layout({ children }) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <title>TechBlog</title>
-      </head>
+      <head />
       <body>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
         <Header />
@@ -18,9 +15,6 @@ export default function layout({ children }) {
           <aside className="md:col-span-3 md:pt-0 max-sm:mt-4 ">
             <Sidebar />
           </aside>
-        </div>
-        <div className="flex justify-center my-8">
-          <Pagination />
         </div>
         <Footer />
       </body>

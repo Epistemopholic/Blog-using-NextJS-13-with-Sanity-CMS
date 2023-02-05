@@ -7,7 +7,7 @@ async function page({ params: { slug } }) {
     ...,
     author->{name},
     categories[]->{title},
-  }`;
+  }| order(_createdAt desc)`;
   const data = await client.fetch(
     query,
     { slug },
